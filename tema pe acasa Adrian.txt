@@ -1,0 +1,44 @@
+Functionalitate: Cele mai importante functionalitati 
+Scenariu 1: Verificarea functionalitatilor
+Given: Utilizatorul se află pe pagina "uTest" 
+When: Utilizatorul verifica daca "logo-ul principal este afisat"
+And: Utilizatorul apasă butonul "reîncărcați această pagină" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina de start 
+
+When: Utilizatorul verifica daca poate accesa elementul "Why uTest "
+And: Utilizatorul apasă butonul "Why uTest" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina "Why uTest"
+
+When: Utilizatorul verifica daca poate accesa elementul "About Us"
+And: Utilizatorul apasă butonul "About Us" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina "About Us"
+
+When: Utilizatorul verifica daca poate accesa elementul "Projects"
+And: Utilizatorul apasă butonul "Projects" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina "Projects"
+
+When: Utilizatorul verifica daca poate accesa elementul "Log In"
+And: Utilizatorul apasă butonul "Log In" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina "Log In"
+
+When: Utilizatorul verifica daca poate accesa elementul "Join Today"
+And: Utilizatorul apasă butonul "Join Today" 
+Then: Utilizatorul ar trebui să fie redirecționat către pagina "Join Today"
+
+ Scenariu 2: Utilizatorul nu se autentifică cu succes 
+Given Utilizatorul se află pe pagina de autentificare 
+When Utilizatorul introduce numele de utilizator "J##@#$#" și parola "SVGVAGVSG" 
+And Utilizatorul apasă butonul "Autentificare" 
+Then Autentificarea nu ar fi trebuit sa fie cu succes 
+
+When Utilizatorul introduce numele de utilizator "dd@#@@" și parola "23234234" 
+And Utilizatorul apasă butonul "Autentificare" 
+Then: Autentificarea nu ar fi trebuit sa fie cu succes
+
+When Utilizatorul introduce numele de utilizator "@###$" și parola "x$$$#" 
+And Utilizatorul apasă butonul "Autentificare" 
+Then: Autentificarea nu ar fi trebuit sa fie cu succes
+
+When Utilizatorul introduce numele de utilizator "d&&*&^" și parola "%%$#" 
+And Utilizatorul apasă butonul "Autentificare" 
+Then: Autentificarea nu ar fi trebuit sa fie cu succes
