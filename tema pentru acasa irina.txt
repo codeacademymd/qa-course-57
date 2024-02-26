@@ -1,0 +1,57 @@
+
+Functionalitate: logare
+
+Scenariu1: Utilizatorul se autentificare pe pagina "utest.com"
+
+Given: utilizatorul se afla pe pagina “utest.com”
+
+When: utilizatorul tapeaza textul "irina.icloud.com” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "55" in sectunea parola
+
+And: Utilizatorul apasa butonul "Enter"
+
+Then: Autentificarea ar fi trebuit sa fie cu succes
+
+When: utilizatorul tapeaza textul "irina.icloud.com” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "jklmnop" in sectunea parola
+
+And: Utilizatorul apasa butonul "Enter"
+
+Then: Autentificarea ar fi trebuit sa fie cu succes
+
+When: utilizatorul tapeaza textul "irina.icloud.com” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "februarie 02" in sectunea parola
+
+And: Utilizatorul apasa butonul "Enter"
+
+Then: Autentificarea ar fi trebuit sa fie cu succes
+
+When: utilizatorul tapeaza textul "qairina.com” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "qacourseexample" in sectunea parola
+
+And: Utilizatorul apasa butonul "Enter"
+
+Then: Autentificarea ar fi trebuit sa fie cu succes
+
+Scenariu2: Utilizatorul nu se poate autentifica pe pagina "utest.com"
+
+jianu.irina, [25.02.2024 20:10]
+Given: utilizatorul se afla pe pagina “utest.com”
+
+When: utilizatorul tapeaza textul "100” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "111" in sectunea parola
+
+And: Utilizatorul apasa butonul "Enter"
+
+Then: Autentificarea nu ar fi trebuit sa fie cu succes
+
+When: utilizatorul tapeaza textul "ghfytuttu” in sectiunea posa electronica  
+
+And: Utilizatorul tapeaza txul "ssssss" in sectiunea parola
+
+And: Utilizatorul apasa tasta"Enter"
