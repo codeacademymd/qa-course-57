@@ -1,0 +1,43 @@
+8. Bug report 
+Titlu: Utlizatorul nu poate da click pe pictogramele de social media utilizand versiunea mobilă
+Descriere: Utlizatorul nu poate da click pe pictogramele de social media utilizand versiunea mobilă
+
+Precondiţii: 
+
+Dispozitiv mobil conectat la baterie
+
+Sistem de operare
+
+Browser
+
+Conexiune la internet
+
+Mediu de testare: https://www.utest.com/  setat în limba engleză
+
+Paşii de reproducere:
+
+1. Porneşte dispozitivul
+
+2. Deschide browser-ul
+
+3. Conectează-te la internet
+
+4. Tapează textul “https://www.utest.com/“ în bara de căutare
+
+5. Apasă tasta “Enter“
+
+6. Localizează pictogramele "X", "Facebook", "Instagram", "LinkedIn"
+
+7. Click pe oricare pictogramă din cele 4
+
+Rezultatul aşteptat: Utlizatorul poate da click pe pictogramele de social media utilizand versiunea mobilă
+
+Rezultatul actual: Utlizatorul nu poate da click pe pictogramele de social media utilizand versiunea mobilă
+
+Ataşament: 1.jpg
+
+Încercări de a repeta: 0 
+
+Severitate: Joasă
+
+Prioritate: Joasă
