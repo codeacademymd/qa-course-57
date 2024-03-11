@@ -1,0 +1,36 @@
+[GHERKIN] CREAREA UNUI CONT
+Feature: Crearea unui cont 
+Scenario 1: Utilizatorul introduce un text valid în câmpurile de text "First name" şi "Last name" 
+Given: Utilizatorul se află pe pagina "Become a uTester"
+When: Utilizatorul tapează textul “Alexandra“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “Covaci“ în câmpul de text "Last name"
+Then: Textele sunt acceptate
+When: Utilizatorul tapează textul “Ştefan“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “Oprea“ în câmpul de text "Last name"
+Then: Textele sunt acceptate
+When: Utilizatorul tapează textul “Адриан“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “Ковач“ în câmpul de text "Last name"
+Then: Textele sunt acceptate
+When: Utilizatorul tapează textul “bhsdjcdb“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “jsrenjr“ în câmpul de text "Last name"
+Then: Textele sunt acceptate
+When: Utilizatorul tapează textul “ASDFG“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “HJKLM“ în câmpul de text "Last name"
+Then: Textele sunt acceptate
+Scenario 2: Utilizatorul introduce un text invalid în câmpurile de text "First name" şi "Last name"
+Given: Utilizatorul se află pe pagina "Become a uTester"
+When: Utilizatorul tapează textul “!"#¤%“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “&/()=“ în câmpul de text "Last name"
+Then: Textele nu sunt acceptate
+When: Utilizatorul tapează textul “a“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “A“ în câmpul de text "Last name"
+Then: Textele nu sunt acceptate
+When: Utilizatorul tapează textul “asdretfzcvbolgiutrdfgythjuioplmnuytresdwtcvxzaqwery“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “asdretfzcvbolgiutrdfgythjuioplmnuytresdwtcvxzaqwery“ în câmpul de text "Last name"
+Then: Textele nu sunt acceptate
+When: Utilizatorul tapează textul “   “ în câmpul de text "First name"
+And: Utilizatorul tapează textul “   “ în câmpul de text "Last name"
+Then: Textele nu sunt acceptate
+When: Utilizatorul tapează textul “12345“ în câmpul de text "First name"
+And: Utilizatorul tapează textul “67890“ în câmpul de text "Last name"
+Then: Textele nu sunt acceptate

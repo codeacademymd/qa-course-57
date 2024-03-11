@@ -1,0 +1,22 @@
+Descriere
+Descriere:Nu pot da click pe pectograma Facebook
+Preconditii:
+•	dispozitiv desktop conectat la baterie sau sursa de alimentare
+•	browser
+•	conexiune internet
+Mediul de testare: https://utest.com/
+Paşii de testare:
+1.	Porneşte dispozitivul
+2.	Deschide browser-ul
+3.	Conectează-te la internet
+4.	Tapează textul “https://utest.com/”in bara de cautare
+5.	Apasa tasta “Enter”
+6.	Da click pe pectograma “Facebook ”
+
+Rezultatul aşteptat: Sa ma derectionez pe pagina de Facebook
+Rezultatul actual: NU pot sa ma derectionez pe pagina de Facebook
+
+ Ataşament: 1.jpg
+ 
+Severitate: Inalta
+Prioritate: inalta

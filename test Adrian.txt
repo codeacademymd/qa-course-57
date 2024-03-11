@@ -1,0 +1,39 @@
+Descriere
+
+Descriere:Logoul nu este afisat pe pagina principala
+
+Preconditii:
+
+dispozitiv conectat la reteaua de alimentare sau pe baterii
+
+sistem de operare   (Windows)
+
+browser
+
+conectiune internet
+
+Mediul de testare: www.utest.com in limba ENG
+
+Pasii de reproducere:
+
+porneste dispozitivul
+
+conecteazate la internet
+
+deschide browser-ul
+
+tapeaza textul “ www.utest.com “ in bara de cautare
+
+apasa tasta “ENTER”
+
+Rezultatul asteptat: Logo-ul "utest" nu este afisat pe  pagina principala
+
+Rezultatul actual: Logo-ul "utest" este este afisat pe  pagina principala
+
+Atasament: 1.jpg
+
+Incercari de a repeta: 0
+
+Severitate: joasa
+
+Prioritate: low

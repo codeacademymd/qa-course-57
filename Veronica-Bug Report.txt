@@ -1,0 +1,48 @@
+
+
+Descriere: Logo-ul este de culoare indigo
+
+Preconditii:
+
+    dispozitiv desktop conectat la reteaua de alimentare sau pe baterii
+
+    sistem de operare 
+
+    browser
+
+    conexiune internet
+
+Mediul de testare: www.utest.com
+
+Pasii de reproducere:
+
+    porneste dispozitivul
+
+    conecteaza la internet
+
+    deschide browse-ul
+
+    tapeaza textul: www.utest.com
+
+    apasa taste “ENTER”
+
+    click pictograma logo-ului
+
+  
+
+Rezultatul asteptat: Logo-ul este de culoare albastra
+
+Rezultatul actual: Logo-ul este de culoare indigo
+
+Atasament: 1.jpg
+
+ 
+Incercari de a repeta: 0
+
+Severitate: high
+
+Prioritate: high
+
+Attachments jpg(1)
+
+    
