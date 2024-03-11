@@ -1,0 +1,33 @@
+Descriere: Utilizatorul nu poate introduce data/luna/anul
+
+Precondiţii: 
+
+-Dispozitiv conectat la reţeaua de alimentare sau pe baterii
+
+-Sistem de operare
+
+-Browser
+
+-Conexiune la internet
+
+Mediu de testare: www.utest.com in limba romana 
+
+Paşii de reproducere:
+
+1.Porneşte dispozitivul
+2.Deschide browser-ul
+3.Conectează-te la internet
+4.Tapează textul “www.utest.com“ în bara de căutare
+5.Apasa butonul "Enter"
+6.Localizeaza categoria "Data nasterii"
+7.Alege un text in elementul "Luna" dand click pe sageata 
+8.Alege o valoare in elementul "Zi" dand click pe sageata 
+9.Alege o valoeare in elementul "An" dand click pe sageata 
+
+Rezultatul asteptat: Utilizatorul nu poate introduce data/luna/anul
+Rezultatul actual: Utilizatorul poate introduce data/luna/anul
+
+Atasament: 1.jpg 
+Prioritate:joasa
+Severitate:joasa 
+Incercari de a repeta: 0
