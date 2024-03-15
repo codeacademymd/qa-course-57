@@ -1,0 +1,22 @@
+Descriere: Utilizatorul nu poate da click pe butonul "Conectare"
+Preconditii:
+dispozitiv conectat la reteaua de alimentare sau pe baterii
+sistem de operare
+browser
+conectiune internet
+Mediul de testare: www.utest.com in limba Ro
+Pasii de reproducere:
+porneste dispozitivul
+conecteazate la internet
+deschide browser-ul
+tapeaza textul “ www.utest.com “ in bara de cautare
+apasa tasta “ENTER”
+localizeaza butonul "Conectare"
+click pe butonul "conectare
+Rezultatul asteptat: Utilizatorul nu poate da click pe butonul "Conectare"
+Rezultatul actual: Utilizatorul poate da click pe butonul "Conectare"
+Atasament: 1.jpg
+Incercari de a repeta: 0
+Severitate: joasa
+Prioritate: low
+Prioritatea: Joasa
